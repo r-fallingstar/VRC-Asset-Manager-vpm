@@ -1,0 +1,41 @@
+{
+    "name":  "VRC Asset Manager VPM Repository",
+    "author":  "r-fallingstar",
+    "url":  "https://r-fallingstar.github.io/VRC-Asset-Manager-vpm/index.json",
+    "id":  "io.github.r-fallingstar.vrc-asset-manager-vpm",
+    "packages":  {
+                     "com.fallingstar.vrc-asset-manager-bridge":  {
+                                                                      "versions":  {
+                                                                                       "0.1.0":  {
+                                                                                                     "name":  "com.fallingstar.vrc-asset-manager-bridge",
+                                                                                                     "displayName":  "VRC Asset Manager Bridge",
+                                                                                                     "version":  "0.1.0",
+                                                                                                     "unity":  "2022.3",
+                                                                                                     "description":  "VRC Asset Manager と Unity プロジェクトを連携し、ZIP/unitypackage のワンクリック導入と導入済みアセットのビジュアル管理を行います。",
+                                                                                                     "keywords":  [
+                                                                                                                      "vrchat",
+                                                                                                                      "vpm",
+                                                                                                                      "booth",
+                                                                                                                      "asset-manager",
+                                                                                                                      "editor"
+                                                                                                                  ],
+                                                                                                     "author":  {
+                                                                                                                    "name":  "r-fallingstar",
+                                                                                                                    "url":  "https://github.com/r-fallingstar/VRC-Asset-Manager-vpm"
+                                                                                                                },
+                                                                                                     "vpmDependencies":  {
+
+                                                                                                                         },
+                                                                                                     "dependencies":  {
+
+                                                                                                                      },
+                                                                                                     "documentationUrl":  "https://github.com/r-fallingstar/VRC-Asset-Manager-vpm",
+                                                                                                     "changelogUrl":  "https://github.com/r-fallingstar/VRC-Asset-Manager-vpm/blob/main/CHANGELOG.md",
+                                                                                                     "licensesUrl":  "https://github.com/r-fallingstar/VRC-Asset-Manager-vpm",
+                                                                                                     "url":  "https://r-fallingstar.github.io/VRC-Asset-Manager-vpm/com.fallingstar.vrc-asset-manager-bridge-0.1.0.zip",
+                                                                                                     "zipSHA256":  "7b51e163eb9d3b85c44338fe118c706f793bbcd12cecf49a319103df4930c80f"
+                                                                                                 }
+                                                                                   }
+                                                                  }
+                 }
+}

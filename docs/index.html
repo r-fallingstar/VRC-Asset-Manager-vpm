@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VRC Asset Manager VPM Repository</title>
+<style>
+  body { font-family: "Segoe UI", "Yu Gothic UI", sans-serif; background: #f6f7fb; color: #1e293b; margin: 0; padding: 36px 18px; }
+  .wrap { max-width: 720px; margin: 0 auto; background: #fff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 28px 30px; box-shadow: 0 8px 24px rgba(15,23,42,.06); }
+  h1 { margin: 0 0 8px; font-size: 22px; }
+  .muted { color: #64748b; font-size: 14px; line-height: 1.6; }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+  .btn { display: inline-block; padding: 10px 18px; border-radius: 9px; font-weight: 700; font-size: 14px; text-decoration: none; cursor: pointer; border: 1px solid #cbd5e1; background: #fff; color: #1e293b; }
+  .btn.primary { background: #fc4d50; border-color: #fc4d50; color: #fff; }
+  code { display: block; background: #f1f5f9; padding: 10px 12px; border-radius: 8px; font-size: 13px; word-break: break-all; margin: 10px 0 18px; }
+  .card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 14px 16px; }
+  .badge { display: inline-block; background: #fee2e2; color: #b91c1c; font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; margin-left: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>VRC Asset Manager VPM Repository</h1>
+  <p class="muted">VRC Asset Manager（v1.0.4 以降）と Unity プロジェクトを連携するための公式 VPM リポジトリです。VCC または ALCOM に追加して利用してください。</p>
+  <div class="actions">
+    <a class="btn primary" href="vcc://vpm/addRepo?url=https%3A%2F%2Fr-fallingstar.github.io%2FVRC-Asset-Manager-vpm%2Findex.json">VCC / ALCOM に追加する</a>
+    <button class="btn" onclick="navigator.clipboard?.writeText('https://r-fallingstar.github.io/VRC-Asset-Manager-vpm/index.json').then(()=>alert('URLをコピーしました'))">リポジトリ URL をコピー</button>
+    <a class="btn" href="https://r-fallingstar.github.io/VRC-Asset-Manager-vpm/index.json">index.json</a>
+  </div>
+  <code>https://r-fallingstar.github.io/VRC-Asset-Manager-vpm/index.json</code>
+  <div class="card">
+    <div><b>VRC Asset Manager Bridge</b> <span class="badge">v0.1.0</span></div>
+    <div class="muted" style="margin-top:4px"><code>com.fallingstar.vrc-asset-manager-bridge</code></div>
+    <p class="muted" style="margin:6px 0 10px">VRC Asset Manager と Unity プロジェクトを連携し、ZIP/unitypackage のワンクリック導入と導入済みアセットのビジュアル管理を行います。</p>
+    <div class="muted" style="font-size:12px">配布 ZIP: <a href="https://r-fallingstar.github.io/VRC-Asset-Manager-vpm/com.fallingstar.vrc-asset-manager-bridge-0.1.0.zip">com.fallingstar.vrc-asset-manager-bridge-0.1.0.zip</a> / SHA-256: 7b51e163eb9d3b85c44338fe118c706f793bbcd12cecf49a319103df4930c80f</div>
+  </div>
+</div>
+</body>
+</html>
